@@ -1,12 +1,12 @@
-/* eslint-disable @next/next/no-img-element */
 "use client";
 
 import { BorderBeam } from "@/components/magicui/border-beam";
-import TextShimmer from "@/components/magicui/text-shimmer";
 import { Button } from "@/components/ui/button";
 import { ArrowRightIcon } from "@radix-ui/react-icons";
 import { useInView } from "framer-motion";
 import { useRef } from "react";
+
+import { ShimmerButton } from "../magicui/shimmer-button";
 
 export default function HeroSection() {
   const ref = useRef(null);
@@ -20,13 +20,14 @@ export default function HeroSection() {
         <br className="hidden md:block" /> Wspólna droga do wiedzy
       </h1>
       <p className="mb-12 text-lg tracking-tight text-gray-400 md:text-xl text-balance translate-y-[-1rem] animate-fade-in opacity-0 [--animation-delay:400ms]">
-        Ucz się, dyskutuj, rozwijaj
-        <br className="hidden md:block" /> - wszystko w Together
+        Platforma kursowa, która łączy wiedzę ze społecznością.
+        <br className="hidden md:block" /> Twórz, ucz się i rozwijaj razem z innymi.
       </p>
-      <Button className="translate-y-[-1rem] animate-fade-in gap-1 rounded-lg text-white dark:text-black opacity-0 ease-in-out [--animation-delay:600ms]">
-        <span>wypróbuj za darmo </span>
-        <ArrowRightIcon className="ml-1 size-4 transition-transform duration-300 ease-in-out group-hover:translate-x-1" />
-      </Button>
+      <ShimmerButton className="shadow-2xl">
+        <span className="text-center text-sm leading-none font-medium tracking-tight whitespace-pre-wrap text-white lg:text-lg">
+          Wypróbuj za darmo
+        </span>
+      </ShimmerButton>
       <div
         ref={ref}
         className="relative mt-[8rem] animate-fade-up opacity-0 [--animation-delay:400ms] [perspective:2000px] after:absolute after:inset-0 after:z-50 after:[background:linear-gradient(to_top,var(--background)_30%,transparent)]"
