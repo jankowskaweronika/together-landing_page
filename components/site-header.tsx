@@ -6,6 +6,7 @@ import { AnimatePresence, motion } from "framer-motion";
 import { AlignJustify, XIcon } from "lucide-react";
 import Link from "next/link";
 import { useEffect, useState } from "react";
+import Image from "next/together.png"
 
 const menuItem = [
   {
@@ -99,9 +100,12 @@ export function SiteHeader() {
     <>
       <header className="fixed left-0 top-0 z-50 w-full px-4 animate-fade-in border-b opacity-0 backdrop-blur-[12px] [--animation-delay:600ms]">
         <div className="container mx-auto flex h-[var(--navigation-height)] w-full items-center justify-between">
-          <Link className="text-md flex items-center justify-center" href="/">
-            Magic UI
-          </Link>
+          <img
+            src="/logo.png"
+            alt="together-course-logo"
+            width={250}
+            height={300}
+          />
 
           <div className="ml-auto flex h-full items-center">
             <Link className="mr-6 text-sm" href="/signin">
@@ -165,9 +169,8 @@ export function SiteHeader() {
                 className="border-grey-dark pl-6 py-0.5 border-b md:border-none"
               >
                 <Link
-                  className={`hover:text-grey flex h-[var(--navigation-height)] w-full items-center text-xl transition-[color,transform] duration-300 md:translate-y-0 md:text-sm md:transition-colors ${
-                    hamburgerMenuIsOpen ? "[&_a]:translate-y-0" : ""
-                  }`}
+                  className={`hover:text-grey flex h-[var(--navigation-height)] w-full items-center text-xl transition-[color,transform] duration-300 md:translate-y-0 md:text-sm md:transition-colors ${hamburgerMenuIsOpen ? "[&_a]:translate-y-0" : ""
+                    }`}
                   href={item.href}
                 >
                   {item.label}
