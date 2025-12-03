@@ -62,22 +62,28 @@ const FeaturesSection = () => {
             return (
               <div
                 key={index}
-                className="group p-6 md:p-8 bg-gray-900/50 backdrop-blur-sm rounded-2xl border border-gray-800/50 hover:border-indigo-500/50 transition-all duration-300 hover:-translate-y-2"
+                className="group relative inline-flex overflow-hidden rounded-2xl p-[1px] transition-all duration-300 hover:-translate-y-2"
               >
-                {/* Icon Container */}
-                <div className="w-14 h-14 bg-gradient-to-br from-indigo-500 to-purple-600 rounded-xl flex items-center justify-center mb-5">
-                  <Icon className="w-7 h-7 text-white" />
+                {/* Animated border gradient - appears on hover */}
+                <span className="absolute inset-[-1000%] animate-[spin_3s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)] opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+
+                {/* Card content */}
+                <div className="relative w-full p-6 md:p-8 bg-gray-900/90 backdrop-blur-sm rounded-2xl border border-gray-800/50 group-hover:border-transparent transition-all duration-300">
+                  {/* Icon Container */}
+                  <div className="w-14 h-14 bg-gradient-to-br from-indigo-500 to-purple-600 rounded-xl flex items-center justify-center mb-5">
+                    <Icon className="w-7 h-7 text-white" />
+                  </div>
+
+                  {/* Title */}
+                  <h3 className="text-xl font-semibold text-white mb-3">
+                    {feature.title}
+                  </h3>
+
+                  {/* Description */}
+                  <p className="text-gray-400 leading-relaxed">
+                    {feature.description}
+                  </p>
                 </div>
-
-                {/* Title */}
-                <h3 className="text-xl font-semibold text-white mb-3">
-                  {feature.title}
-                </h3>
-
-                {/* Description */}
-                <p className="text-gray-400 leading-relaxed">
-                  {feature.description}
-                </p>
               </div>
             );
           })}
