@@ -15,11 +15,6 @@ const menuItem = [
     href: "/features",
   },
   {
-    id: 2,
-    label: "Pricing",
-    href: "#",
-  },
-  {
     id: 3,
     label: "Careers",
     href: "#",
