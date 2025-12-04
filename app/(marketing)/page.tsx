@@ -14,6 +14,7 @@ export default async function Page() {
       <BenefitsSection />
       <SphereMask />
       <ComparisonSection />
+      <SphereMask reverse={true} />
       <FeaturesSection />
       <HowItWorksSection />
       <ContactSection />
