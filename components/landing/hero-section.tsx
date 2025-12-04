@@ -47,11 +47,6 @@ export default function HeroSection() {
             alt="Hero Image"
             className="hidden relative w-full h-full rounded-[inherit] border object-contain dark:block"
           />
-          <img
-            src="/hero-light.png"
-            alt="Hero Image"
-            className="block relative w-full h-full  rounded-[inherit] border object-contain dark:hidden"
-          />
         </div>
       </div>
     </section>

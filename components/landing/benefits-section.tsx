@@ -1,7 +1,6 @@
 const BenefitsSection = () => {
   return (
     <section
-      id="benefits"
       className="text-center mx-auto max-w-[80rem] px-6 md:px-8"
     >
       <div className="mx-auto max-w-5xl grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
