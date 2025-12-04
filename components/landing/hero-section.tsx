@@ -1,6 +1,6 @@
 "use client";
 
-import { BorderBeam } from "@/components/magicui/border-beam";
+import { BorderBeam } from "@/components/magicui/frame-animation";
 import { useInView } from "framer-motion";
 import { useRef } from "react";
 
