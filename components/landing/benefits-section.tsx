@@ -1,4 +1,4 @@
-export default function BenefitsSection() {
+const BenefitsSection = () => {
   return (
     <section
       id="benefits"
@@ -22,6 +22,8 @@ export default function BenefitsSection() {
         </div>
 
       </div>
-    </section>
+    </section >
   );
 }
+
+export default BenefitsSection
