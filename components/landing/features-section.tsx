@@ -65,7 +65,7 @@ const FeaturesSection = () => {
           className={`relative rounded-xl bg-black before:absolute before:bottom-1/2 before:left-0 before:top-0 before:h-full before:w-full before:opacity-0 before:[filter:blur(180px)] before:[background-image:linear-gradient(to_bottom,#fcd003,#fcd003,transparent_40%)] ${inView ? "before:animate-image-glow" : ""
             }`}
         >
-          <div className="relative grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 p-8">
+          <div className="relative z-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 p-8">
             {features.map((feature, index) => {
               const Icon = feature.icon;
               return (
@@ -79,7 +79,7 @@ const FeaturesSection = () => {
                   {/* Card content */}
                   <div className="relative w-full p-6 md:p-8 bg-gray-900/90 backdrop-blur-sm rounded-2xl border border-gray-800/50 group-hover:border-transparent transition-all duration-300">
                     {/* Icon Container */}
-                    <div className="w-14 h-14 bg-gradient-to-br from-#08053d to-stone-700 rounded-xl flex items-center justify-center mb-5">
+                    <div className="w-14 h-14 bg-gradient-to-br from-indigo-500 to-purple-600 rounded-xl flex items-center justify-center mb-5">
                       <Icon className="w-7 h-7 text-white" />
                     </div>
 
