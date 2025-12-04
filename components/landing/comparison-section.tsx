@@ -6,7 +6,7 @@ import ShimmerCard from '../magicui/shimmerCard';
 
 const ComparisonSection = () => {
   return (
-    <div className='flex flex-col justify-center items-center min-h-screen gap-12 px-4 py-20'>
+    <div className='flex flex-col justify-center items-center min-h-screen gap-12 px-4 py-20 -mt-100 pb-50'>
       <h2 className="bg-gradient-to-br dark:from-white from-black from-30% dark:to-white/40 to-black/40 bg-clip-text py-6 text-4xl font-medium leading-none tracking-tighter text-transparent text-balance sm:text-5xl md:text-6xl lg:text-7xl">
         Platforma, której szukałeś
       </h2>
