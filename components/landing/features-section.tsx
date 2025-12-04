@@ -47,12 +47,9 @@ const FeaturesSection = () => {
       <div className="container mx-auto px-4 max-w-7xl">
         {/* Section Header */}
         <div className="text-center mb-12 md:mb-16">
-          <h2 className="text-3xl md:text-5xl font-bold text-white mb-4">
+          <h2 className="bg-gradient-to-br dark:from-white from-black from-30% dark:to-white/40 to-black/40 bg-clip-text py-6 text-4xl font-medium leading-none tracking-tighter text-transparent text-balance sm:text-5xl md:text-6xl lg:text-7xl">
             Wszystko czego potrzebujesz w jednym miejscu
           </h2>
-          <p className="text-base md:text-lg text-gray-300 max-w-2xl mx-auto">
-            Kompleksowa platforma do tworzenia i sprzedaży kursów online
-          </p>
         </div>
 
         {/* Features Grid */}
