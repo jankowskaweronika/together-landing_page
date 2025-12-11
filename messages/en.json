@@ -1,0 +1,48 @@
+{
+  "hero": {
+    "title": "Together",
+    "subtitle": "Learn, create and share knowledge in community",
+    "description": "Next-generation e-learning platform where learning becomes a shared adventure. Join our beta testing and shape the future of education with us."
+  },
+  "cta": {
+    "joinWaitlist": "Join the waiting list",
+    "joinBeta": "Join beta testing",
+    "learnMore": "Learn more"
+  },
+  "features": {
+    "title": "Why Together?",
+    "collaborative": {
+      "title": "Collaborative learning",
+      "description": "Learn together with others, share knowledge and develop skills in community"
+    },
+    "interactive": {
+      "title": "Interactive courses",
+      "description": "Engaging video materials, quizzes and practical assignments"
+    },
+    "progress": {
+      "title": "Track progress",
+      "description": "See how you develop and celebrate every milestone"
+    }
+  },
+  "waitlist": {
+    "title": "Join beta testing",
+    "description": "Be the first to test our platform",
+    "emailPlaceholder": "Your email address",
+    "submit": "Sign up",
+    "success": "Thank you! We'll contact you soon.",
+    "error": "Something went wrong. Please try again."
+  },
+  "contact": {
+    "title": "Contact us",
+    "namePlaceholder": "Your name",
+    "emailPlaceholder": "Your email",
+    "messagePlaceholder": "Your message",
+    "submit": "Send message",
+    "success": "Message sent!",
+    "error": "Sending error"
+  },
+  "footer": {
+    "tagline": "Learning together, better results",
+    "rights": "All rights reserved"
+  }
+}

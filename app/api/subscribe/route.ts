@@ -25,7 +25,7 @@ export async function POST(request: Request) {
       },
       body: JSON.stringify({
         email: email,
-        groups: [process.env.MAILERLITE_GROUP_ID], // Dodane przypisanie do grupy
+        groups: [process.env.MAILERLITE_GROUP_ID], 
       }),
     });
 

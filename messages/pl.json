@@ -1,0 +1,48 @@
+{
+  "hero": {
+    "title": "Razem",
+    "subtitle": "Ucz się, twórz i dziel wiedzą w społeczności",
+    "description": "Platforma e-learningowa nowej generacji, gdzie nauka staje się wspólną przygodą. Dołącz do beta testów i kształtuj przyszłość edukacji z nami."
+  },
+  "cta": {
+    "joinWaitlist": "Dołącz do listy oczekujących",
+    "joinBeta": "Dołącz do beta testów",
+    "learnMore": "Dowiedz się więcej"
+  },
+  "features": {
+    "title": "Dlaczego Razem?",
+    "collaborative": {
+      "title": "Wspólna nauka",
+      "description": "Ucz się razem z innymi, dziel się wiedzą i rozwijaj umiejętności w społeczności"
+    },
+    "interactive": {
+      "title": "Interaktywne kursy",
+      "description": "Angażujące materiały video, quizy i zadania praktyczne"
+    },
+    "progress": {
+      "title": "Śledź postępy",
+      "description": "Zobacz jak się rozwijasz i świętuj każdy kamień milowy"
+    }
+  },
+  "waitlist": {
+    "title": "Dołącz do beta testów",
+    "description": "Bądź pierwszym, który przetestuje naszą platformę",
+    "emailPlaceholder": "Twój adres email",
+    "submit": "Zapisz się",
+    "success": "Dziękujemy! Skontaktujemy się wkrótce.",
+    "error": "Coś poszło nie tak. Spróbuj ponownie."
+  },
+  "contact": {
+    "title": "Skontaktuj się z nami",
+    "namePlaceholder": "Twoje imię",
+    "emailPlaceholder": "Twój email",
+    "messagePlaceholder": "Twoja wiadomość",
+    "submit": "Wyślij wiadomość",
+    "success": "Wiadomość wysłana!",
+    "error": "Błąd wysyłania"
+  },
+  "footer": {
+    "tagline": "Wspólna nauka, lepsze rezultaty",
+    "rights": "Wszelkie prawa zastrzeżone"
+  }
+}
