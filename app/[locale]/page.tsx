@@ -1,6 +1,6 @@
-import ContactSection from "@/components/landing/contactSection";
-import FooterSection from "@/components/landing/footerSection";
-import HeroSection from "@/components/landing/heroSection";
+import ContactSection from "@/app/landing/contactSection";
+import FooterSection from "@/app/landing/footerSection";
+import HeroSection from "@/app/landing/heroSection";
 import { SphereMask } from "@/components/magicui/sphere-mask";
 
 

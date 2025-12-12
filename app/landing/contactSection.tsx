@@ -82,7 +82,6 @@ const ContactSection = () => {
             {status === 'loading' ? 'Zapisywanie...' : status === 'success' ? 'Zapisano!' : 'Zapisz się'}
           </span>
 
-          {/* Pulsating effect */}
           <span
             className="absolute inset-0 rounded-full animate-pulse"
             style={{
