@@ -1,4 +1,22 @@
 {
+  "HeroSection": {
+    "title": "Coming soon...",
+    "description1": "We're working on a platform that will change the way of online learning.",
+    "description2": "Learn together with others and grow faster.",
+    "ctaButton": "Join the waiting list",
+    "imageAlt": "Together platform preview"
+  },
+  "ContactSection": {
+    "emailPlaceholder": "Your email address",
+    "submit": "Subscribe",
+    "submitting": "Subscribing...",
+    "submitted": "Subscribed!",
+    "successMessage": "Thank you for subscribing",
+    "errorMessage": "An error occurred"
+  },
+  "FooterSection": {
+    "rights": "All rights reserved."
+  },
   "hero": {
     "title": "Together",
     "subtitle": "Learn, create and share knowledge in community",

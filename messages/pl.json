@@ -1,4 +1,22 @@
 {
+  "HeroSection": {
+    "title": "Już wkrótce...",
+    "description1": "Pracujemy nad platformą, która zmieni sposób nauki online.",
+    "description2": "Ucz się razem z innymi i rozwijaj się szybciej.",
+    "ctaButton": "Dołącz do listy oczekujących",
+    "imageAlt": "Podgląd platformy Together"
+  },
+  "ContactSection": {
+    "emailPlaceholder": "Twój adres email",
+    "submit": "Zapisz się",
+    "submitting": "Zapisywanie...",
+    "submitted": "Zapisano!",
+    "successMessage": "Dziękujemy za zapisanie się",
+    "errorMessage": "Wystąpił błąd"
+  },
+  "FooterSection": {
+    "rights": "Wszystkie prawa zastrzeżone."
+  },
   "hero": {
     "title": "Razem",
     "subtitle": "Ucz się, twórz i dziel wiedzą w społeczności",

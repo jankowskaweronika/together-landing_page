@@ -1,10 +1,12 @@
 "use client";
 
+import { useTranslations } from 'next-intl';
 import { BorderBeam } from "@/components/magicui/frame-animation";
-import { PulsatingButton } from '@/components/magicui/pulsating-button'
+import { PulsatingButton } from '@/components/magicui/pulsating-button';
 import { useState, useEffect } from "react";
 
 const HeroSection = () => {
+  const t = useTranslations('HeroSection');
   const [isLoaded, setIsLoaded] = useState(false);
 
   useEffect(() => {
@@ -23,7 +25,7 @@ const HeroSection = () => {
         behavior: 'smooth'
       });
     }
-  }
+  };
 
   return (
     <section
@@ -35,7 +37,7 @@ const HeroSection = () => {
           }`}
         style={{ transitionDelay: '200ms' }}
       >
-        <br className="hidden md:block" /> Już wkrótce...
+        <br className="hidden md:block" /> {t('title')}
       </h1>
 
       <p
@@ -43,8 +45,8 @@ const HeroSection = () => {
           }`}
         style={{ transitionDelay: '400ms' }}
       >
-        Pracujemy nad platformą, która zmieni sposób nauki online.
-        <br className="hidden md:block" /> Ucz się razem z innymi i rozwijaj się szybciej.
+        {t('description1')}
+        <br className="hidden md:block" /> {t('description2')}
       </p>
 
       <div
@@ -62,7 +64,7 @@ const HeroSection = () => {
           }}
         >
           <span className="text-sm font-medium lg:text-lg">
-            Dołącz do listy oczekujących
+            {t('ctaButton')}
           </span>
         </PulsatingButton>
       </div>
@@ -84,7 +86,7 @@ const HeroSection = () => {
 
             <img
               src="/hero-dark.png"
-              alt="Hero Image"
+              alt={t('imageAlt')}
               className="hidden relative w-full h-full rounded-[inherit] border object-contain dark:block"
             />
           </div>
@@ -92,6 +94,6 @@ const HeroSection = () => {
       </div>
     </section>
   );
-}
+};
 
 export default HeroSection;

@@ -1,18 +1,20 @@
 'use client';
 
+import { useTranslations } from 'next-intl';
 import { AlertCircle, CheckCircle, Mail } from 'lucide-react';
 import { useState } from 'react';
 
 const ContactSection = () => {
+  const t = useTranslations('ContactSection');
 
-  const [email, setEmail] = useState('')
-  const [status, setStatus] = useState<'idle' | 'loading' | 'success' | 'error'>('idle')
-  const [message, setMessage] = useState('')
+  const [email, setEmail] = useState('');
+  const [status, setStatus] = useState<'idle' | 'loading' | 'success' | 'error'>('idle');
+  const [message, setMessage] = useState('');
 
   const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault()
-    setStatus('loading')
-    setMessage('')
+    e.preventDefault();
+    setStatus('loading');
+    setMessage('');
 
     try {
       const response = await fetch('/api/subscribe', {
@@ -26,23 +28,23 @@ const ContactSection = () => {
       const data = await response.json();
 
       if (response.ok) {
-        setStatus('success')
-        setMessage('Dziękujemy za zapisanie się')
-        setEmail('')
+        setStatus('success');
+        setMessage(t('successMessage'));
+        setEmail('');
 
         setTimeout(() => {
-          setStatus('idle')
-          setMessage('')
-        }, 5000)
+          setStatus('idle');
+          setMessage('');
+        }, 5000);
       } else {
-        setStatus('error')
-        setMessage(data.error || 'Wystąpił błąd')
+        setStatus('error');
+        setMessage(data.error || t('errorMessage'));
       }
     } catch (error) {
-      setStatus('error')
-      setMessage('Wystąpił błąd')
+      setStatus('error');
+      setMessage(t('errorMessage'));
     }
-  }
+  };
 
   return (
     <form id='contact' onSubmit={handleSubmit} className="w-full max-w-md mx-auto">
@@ -53,7 +55,7 @@ const ContactSection = () => {
             type="email"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
-            placeholder="Twój adres email"
+            placeholder={t('emailPlaceholder')}
             required
             disabled={status === 'loading' || status === 'success'}
             className="w-full pl-12 pr-4 py-3.5 bg-black/40 backdrop-blur-sm border border-white/10 rounded-full 
@@ -79,7 +81,7 @@ const ContactSection = () => {
           }}
         >
           <span className="relative z-10 text-sm lg:text-base">
-            {status === 'loading' ? 'Zapisywanie...' : status === 'success' ? 'Zapisano!' : 'Zapisz się'}
+            {status === 'loading' ? t('submitting') : status === 'success' ? t('submitted') : t('submit')}
           </span>
 
           {/* Pulsating effect */}
@@ -107,6 +109,6 @@ const ContactSection = () => {
       )}
     </form>
   );
-}
+};
 
-export default ContactSection
+export default ContactSection;
