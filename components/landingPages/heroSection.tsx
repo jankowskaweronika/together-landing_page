@@ -1,8 +1,8 @@
 "use client";
 
 import { useTranslations } from 'next-intl';
-import { BorderBeam } from "@/components/magicui/frame-animation";
-import { PulsatingButton } from '@/components/magicui/pulsating-button';
+import { BorderBeam } from "@/components/ui/frame-animation";
+import { PulsatingButton } from '@/components/ui/pulsating-button';
 import { useState, useEffect } from "react";
 
 const HeroSection = () => {

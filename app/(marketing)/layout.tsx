@@ -1,4 +1,4 @@
-import SiteHeader from "@/components/siteHeader";
+import SiteHeader from "@/components/landingPages/siteHeader";
 
 interface MarketingLayoutProps {
   children: React.ReactNode;

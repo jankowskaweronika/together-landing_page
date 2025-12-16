@@ -1,5 +1,4 @@
 import React from "react"
-
 import { cn } from "@/lib/utils"
 
 interface PulsatingButtonProps
@@ -8,10 +7,7 @@ interface PulsatingButtonProps
   duration?: string
 }
 
-export const PulsatingButton = React.forwardRef<
-  HTMLButtonElement,
-  PulsatingButtonProps
->(
+export const PulsatingButton = React.forwardRef<HTMLButtonElement, PulsatingButtonProps>(
   (
     {
       className,
@@ -38,7 +34,7 @@ export const PulsatingButton = React.forwardRef<
         {...props}
       >
         <div className="relative z-10">{children}</div>
-        <div className="absolute top-1/2 left-1/2 size-full -translate-x-1/2 -translate-y-1/2 animate-pulse rounded-lg bg-inherit" />
+        <div className="absolute top-1/2 left-1/2 size-full -translate-x-1/2 -translate-y-1/2 animate-pulsate rounded-lg bg-inherit" />
       </button>
     )
   }

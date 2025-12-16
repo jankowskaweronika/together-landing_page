@@ -1,7 +1,7 @@
-import ContactSection from "@/components/landing/contactSection";
-import FooterSection from "@/components/landing/footerSection";
-import HeroSection from "@/components/landing/heroSection";
-import { SphereMask } from "@/components/magicui/sphere-mask";
+import ContactSection from "@/components/landingPages/contactSection";
+import FooterSection from "@/components/landingPages/footerSection";
+import HeroSection from "@/components/landingPages/heroSection";
+import { SphereMask } from "@/components/ui/sphere-mask";
 
 
 export default async function Page() {
