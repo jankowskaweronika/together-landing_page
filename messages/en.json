@@ -62,5 +62,46 @@
   "footer": {
     "tagline": "Learning together, better results",
     "rights": "All rights reserved"
+  },
+  "FeaturesSection": {
+    "title": "Why Together?",
+    "subtitle": "Discover what sets our platform apart",
+    "collaborative": {
+      "title": "Collaborative learning",
+      "description": "Learn together with others, share knowledge and develop skills within the community"
+    },
+    "interactive": {
+      "title": "Interactive courses",
+      "description": "Engaging video materials, quizzes, and practical assignments tailored to your pace"
+    },
+    "progress": {
+      "title": "Track your progress",
+      "description": "Monitor your development with detailed statistics and achievements"
+    },
+    "courses": {
+      "title": "Rich course selection",
+      "description": "Wide range of topics from programming basics to advanced technologies"
+    },
+    "community": {
+      "title": "Active community",
+      "description": "Join discussions, ask questions, and help others learn"
+    },
+    "certificates": {
+      "title": "Completion certificates",
+      "description": "Earn recognized certificates after completing courses and build your portfolio"
+    }
+  },
+  "ComparisonSection": {
+    "title": "Together vs Traditional platforms",
+    "subtitle": "See how we stand out from the competition",
+    "features": "Features",
+    "traditional": "Traditional platforms",
+    "feature1": "Community-based learning",
+    "feature2": "Collaborative projects and tasks",
+    "feature3": "Completion certificates",
+    "feature4": "Mentoring and community support",
+    "feature5": "Video and interactive materials",
+    "feature6": "Gamification and team competition",
+    "highlight": "🚀 Join a community that learns together!"
   }
 }

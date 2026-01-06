@@ -62,5 +62,46 @@
   "footer": {
     "tagline": "Wspólna nauka, lepsze rezultaty",
     "rights": "Wszelkie prawa zastrzeżone"
+  },
+  "FeaturesSection": {
+    "title": "Dlaczego Together?",
+    "subtitle": "Odkryj, co wyróżnia naszą platformę",
+    "collaborative": {
+      "title": "Wspólna nauka",
+      "description": "Ucz się razem z innymi, dziel się wiedzą i rozwijaj umiejętności w społeczności"
+    },
+    "interactive": {
+      "title": "Interaktywne kursy",
+      "description": "Angażujące materiały wideo, quizy i zadania praktyczne dostosowane do Twojego tempa"
+    },
+    "progress": {
+      "title": "Śledź postępy",
+      "description": "Zobacz jak się rozwijasz dzięki szczegółowym statystykom i osiągnięciom"
+    },
+    "courses": {
+      "title": "Bogata oferta kursów",
+      "description": "Szeroka gama tematów od podstaw programowania po zaawansowane technologie"
+    },
+    "community": {
+      "title": "Aktywna społeczność",
+      "description": "Dołącz do dyskusji, zadawaj pytania i pomagaj innym w nauce"
+    },
+    "certificates": {
+      "title": "Certyfikaty ukończenia",
+      "description": "Zdobywaj uznawane certyfikaty po ukończeniu kursów i buduj swoje portfolio"
+    }
+  },
+  "ComparisonSection": {
+    "title": "Together vs Tradycyjne platformy",
+    "subtitle": "Zobacz, jak wyróżniamy się na tle konkurencji",
+    "features": "Funkcje",
+    "traditional": "Tradycyjne platformy",
+    "feature1": "Społecznościowe uczenie się",
+    "feature2": "Wspólne projekty i zadania",
+    "feature3": "Certyfikaty ukończenia",
+    "feature4": "Mentoring i wsparcie społeczności",
+    "feature5": "Materiały wideo i interaktywne",
+    "feature6": "Gamifikacja i rywalizacja zespołowa",
+    "highlight": "🚀 Dołącz do społeczności, która uczy się razem!"
   }
 }
